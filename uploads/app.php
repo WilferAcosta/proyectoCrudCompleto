@@ -10,6 +10,5 @@ $router->get("/camper", function () {
     print_r($res);
     echo json_encode($res);
 });
-
 $router->run();
 ?>
